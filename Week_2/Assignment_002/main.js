@@ -22,6 +22,14 @@ console.log(
   `String: ${str}\tLength: ${strLength}\tFirst Character: ${firstChar}\tLast Character: ${lastChar}`
 );
 
+const negNum = -15;
+const absValue = Math.abs(negNum);
+const sqrt = Math.sqrt(negNum);
+const sqrd = Math.pow(negNum, 2);
+console.log(
+  `Negative Number: ${negNum}\tAbsolute Value: ${absValue}\tSquare Root: ${sqrt}\tSquared: ${sqrd}`
+);
+
 const num3 = 5;
 const num4 = 3;
 if (num3 > num4) {
